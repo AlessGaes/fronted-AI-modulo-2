@@ -1,21 +1,15 @@
-/*Titulo*/
-h1 {
-    font-family: 'Arial', sans-serif;
-    font-style: italic;
-}
 /* Variables */
 :root {
-    --color-static: #0eadf6;
-    --color-relative: #ab0d51;
-    --color-absolute: #79b4f7;
-    --color-fixed: #ff8ff9;
-    --color-sticky: #270682;
+    --color-static: #8a2be2;
+    --color-relative: #ff9800;
+    --color-absolute: #3a3af6;
+    --color-fixed: #8f8f03;
+    --color-sticky: #a26900;
     --color-container: #f4f4f4;
-    --color-text: #000000;
+    --color-text: #333;
     --box-size: 110px;
     --container-height: 200px;
 }
-
 
 /* General Styles */
 *{
@@ -67,7 +61,7 @@ p {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #000008;
+    background-color: #8a8a8a;
     color: white;
     font-weight: bold;
 }
@@ -118,7 +112,7 @@ p {
 }
 
 .segundo{
-    background-color: #0089f9;
+    background-color: #b5eca0;
     color: #333;
     top: 10px;
     left: 10px;
